@@ -8,6 +8,17 @@ C:\Users\<Your UserName>\.platformio\packages\framework-arduinoespressif32
 ```
 and drag and drop the tools folder from this repository this should replace all mdns related files.
 
+If it doesn't work you might have to manually specify arduino-esp32 2.0.3 in ```platformio.ini``` in your project like so:
+```
+platform_packages = 
+    framework-arduinoespressif32@https://github.com/espressif/arduino-esp32.git#2.0.3    
+```
+If you do this the path slightly changes and something with @ is added to the end you have to look for this yourself though because I'm not sure if it's the same for everyone:
+```
+C:\Users\<Your UserName>\.platformio\packages\framework-arduinoespressif32@src-etcetc
+```
+and drag and drop the tools folder from this repo in there.
+
 ## For users of the Arduino IDE on Windows:
 Go to:
 ```
