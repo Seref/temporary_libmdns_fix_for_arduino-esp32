@@ -1,7 +1,7 @@
 # temporary_libmdns_fix_for_arduino-esp32
 This is here just temporarily, I will remove this once it's been properly fixed :)
 
-## For users of PlatformIO on Windows:
+## For users of PlatformIO on Windows :
 Go to:
 ```
 C:\Users\<Your UserName>\.platformio\packages\framework-arduinoespressif32
@@ -19,7 +19,7 @@ C:\Users\<Your UserName>\.platformio\packages\framework-arduinoespressif32@src-e
 ```
 and drag and drop the tools folder from this repo in there.
 
-## For users of the Arduino IDE on Windows:
+## For users of the Arduino IDE on Windows (I didn't test this out, just adding it here):
 Go to:
 ```
 C:\Users\<Your UserName>\AppData\Local\Arduino15\packages\esp32\hardware\esp32\2.0.3
